@@ -1,8 +1,17 @@
 aid: roger
 name: Roger
-description: 'Roger is a company surfaced as a portfolio company of gv, partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Roger (operated by Sanos Services GmbH, Berlin, Germany) is a B2B SaaS
+  practice-management platform for dental clinics. It layers automation and AI
+  onto existing German dental practice-management systems (PVS) such as CGM Z1,
+  Charly, Dampsoft, Evident and Dento Office, adding patient recall, digital
+  intake forms, WhatsApp/SMS communication, AI-assisted documentation with
+  billing-position capture, digital treatment-plan signing, factoring with
+  default protection and instant payout, and outsourced ZMV/reception staffing.
+  The product is DSGVO/GDPR-compliant and hosted in Germany. As surfaced in the
+  API Evangelist network via VC-portfolio discovery, Roger publishes a marketing
+  and product site but no public developer portal, API documentation, or
+  machine-readable API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/roger/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +20,29 @@ x-backed-by:
 - partech
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Enterprise
+- Dental
+- Healthcare
+- Practice Management
+- SaaS
+- Germany
+image: https://cdn.prod.website-files.com/66d6de830d5d68dd79a93b91/66dac97d903c8371823b26a1_Roger_Logo_Main_Color_Web.svg
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +50,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/roger-domain-security.yml
 - type: Website
   url: https://www.goroger.com
+- type: Pricing
+  url: https://www.goroger.com/preise
+- type: PrivacyPolicy
+  url: https://www.goroger.com/datenschutz
+- type: TermsOfService
+  url: https://www.goroger.com/agb
+- type: Login
+  url: https://desk.goroger.com/login
+- type: Support
+  url: https://www.goroger.com/wissen/hilfe
+- type: Blog
+  url: https://www.goroger.com/wissen/wissenswertes
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
